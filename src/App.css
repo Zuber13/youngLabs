@@ -1,38 +1,126 @@
-.App {
-  text-align: center;
+html,
+body,
+* {
+  /* margin: 0; */
+  padding: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.container {
+  width: 100%;
+  background-color: #fff;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+header {
+  width: 90%;
+  margin: 0 auto;
+  padding: 10px 0;
   display: flex;
-  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header img {
+  width: 75px;
+}
+
+.login-btn {
+  padding: 10px 25px;
+  background-color: #88ce1d;
+  border: none;
+  color: #fff;
+  font-weight: bold;
+  font-size: 1.3rem;
+  border-radius: 5px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 0.5fr 1fr;
+  font-size: 1.2rem;
+  color: #444;
+  padding: 0 16px;
+}
+
+.grid-col {
+  padding: 10px;
+}
+
+.contents {
+  width: 80%;
+  margin: 10px auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.left-side img {
+  width: 470px;
+}
+
+p {
+  font-size: 1.3rem;
+}
+
+.contents h2 {
+  font-size: 2rem;
+  color: #5b5b5b;
+}
+
+.price {
+  width: 35rem;
+  height: 5rem;
+  background: #f3f4f6;
+  display: flex;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  font-size: 1.4rem;
+  margin: 22px 0;
+  color: #8a93a0;
+  border: 2px solid #ddd;
 }
 
-.App-link {
-  color: #61dafb;
+ul {
+  list-style-type: none;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.title {
+  color: #5096bd;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  border-top: 3px solid #ddd;
+}
+
+.details {
+  border: 2px solid #ddd;
+  padding: 20px;
+  margin: 5rem 0;
+  border-radius: 5px;
+}
+
+.details .title {
+  font-size: 1.5rem;
+}
+
+.boxes {
+  border: 2px solid #ddd;
+  margin: 15px 0;
+  padding: 0 20px;
+  border-radius: 5px;
+}
+
+.boxes p {
+  font-size: 1.1rem;
+}
+
+.footer {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+  background-color: #bddc78;
+  padding: 50px 0;
 }
