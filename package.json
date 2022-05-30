@@ -2,7 +2,7 @@
   "name": "lab-page",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://zuber13.github.io/youngLabs/git",
+  "homepage": "https://zuber13.github.io/youngLabs",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.2.0",
