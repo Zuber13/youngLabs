@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/youngLabs/static/css/main.0bf7771d.css",
+    "main.js": "/youngLabs/static/js/main.67b4b644.js",
+    "static/media/mental-maths6-8.png": "/youngLabs/static/media/mental-maths6-8.208c4c2f18bbb52ae392.png",
+    "index.html": "/youngLabs/index.html",
+    "main.0bf7771d.css.map": "/youngLabs/static/css/main.0bf7771d.css.map",
+    "main.67b4b644.js.map": "/youngLabs/static/js/main.67b4b644.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0bf7771d.css",
+    "static/js/main.67b4b644.js"
+  ]
+}
